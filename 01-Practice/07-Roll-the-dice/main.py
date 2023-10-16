@@ -4,8 +4,8 @@ playerNumber = 0
 computerNumber = 0
 
 for i in range(6):
-    playerNumber += random.randint(1, 5) + 1
-    computerNumber += random.randint(1, 5) + 1
+    playerNumber += random.randint(1, 6)
+    computerNumber += random.randint(1, 6)
 
 print("Player:", playerNumber, "Computer:", computerNumber)
 
